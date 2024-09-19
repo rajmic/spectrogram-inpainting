@@ -4,6 +4,8 @@
 @import "{{ site.theme }}";
 table {
   margin: 15px;
+  border-collapse: collapse;
+  font-size: 12px;
 }
 .pUnderAlpha{
   background-color: #aaffaa;
