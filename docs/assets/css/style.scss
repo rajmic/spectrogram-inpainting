@@ -2,7 +2,8 @@
 ---
 
 @import "{{ site.theme }}";
-table {
+table, th, td {
+  border: none;
   border-collapse: collapse;
   font-size: 12px;
 }
