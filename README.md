@@ -7,7 +7,8 @@ A repository and webpage accompanying the paper *Janssen 2.0: Audio Inpainting i
 
 The paper compares a recent method abbreviated DPAI with the proposed Janssen-TF approach.
 DPAI codes are not a part of this repository but are available [here](https://github.com/fmiotello/dpai).
-On the contrary, Matlab codes of our method are available in the Janssen-TF folder.
+On the contrary, Matlab codes of our method are available in the **Janssen-TF** folder.
+For reproducibility reasons, the codes are set to read the input audio files from the **audio-originals** folder, while the spectrogram masks used in our experiments are read from the **masks** folder.
 
 ## Dependencies
 
