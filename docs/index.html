@@ -4,7 +4,7 @@ layout: default
 
 <p>This is the accompanying page for the article <em>Janssen 2.0: Audio Inpainting in the Time-frequency Domain</em> authored by Ondřej Mokrý, Peter Balušík and Pavel Rajmic, submitted to ICASSP 2025.</p>
 <blockquote>
-<p>The paper focuses on inpainting missing parts of an audio signal spectrogram. First, a recent successful approach based on an untrained neural network is revised and its several modifications are proposed, improving the signal-to-noise ratio of the restored audio. Second, the Janssen algorithm, the autoregression-based state-of-the-art for time-domain audio inpainting, is adapted for the time-frequency setting. This novel method, coined Janssen-TF, is compared to the neural network approach using both objective metrics and a subjective listening test, proving Janssen-TF to be superior in all the considered measures.</p>
+<p>The paper focuses on inpainting missing parts of an audio signal spectrogram. The autoregression-based Janssen algorithm, the state-of-the-art for the time-domain audio inpainting, is adapted for the time-frequency setting. This novel method, termed Janssen-TF, is compared to the deep-prior neural network approach using both objective metrics and a subjective listening test, proving Janssen-TF to be superior in all the considered measures.</p>
 </blockquote>
 <p>The preprint is available at <a href="https://arxiv.org/abs/2409.06392">arXiv</a>.</p>
 
@@ -12,6 +12,8 @@ layout: default
 You can listen to the audio excerpts used in the listening test.
 The denotation of the five examples is the same as in the article
 <a href="https://fmiotello.github.io/dpai/">Deep Prior-Based Audio Inpainting Using Multi-Resolution Harmonic Convolutional Neural Networks</a>.
+
+<p>* Excerpts marked with an asterisk correspond to a modification of DPAI, which has not been included in the paper, due to negligible reconstruction improvements. The resulting signal is created by averaging four DPAI reconstructions, each started with a different noise initialization.</p>
 
 <h2>Example0 (piano)</h2> 
 <table>
@@ -43,7 +45,7 @@ The denotation of the five examples is the same as in the article
 			<td><audio src="audio-listening_test/DPAI_with_context/context_example0mask6.wav" controls preload style="width: 200px;"></audio></td>
 		</tr>
 		<tr>
-			<td>DPAI averaged (4 outputs)</td>
+			<td>DPAI averaged* (4 outputs)</td>
 			<td><audio src="audio-listening_test/DPAI_averaged/averaged_example0mask2.wav" controls preload style="width: 200px;"></audio></td>
 			<td><audio src="audio-listening_test/DPAI_averaged/averaged_example0mask4.wav" controls preload style="width: 200px;"></audio></td>
 			<td><audio src="audio-listening_test/DPAI_averaged/averaged_example0mask6.wav" controls preload style="width: 200px;"></audio></td>
@@ -99,7 +101,7 @@ The denotation of the five examples is the same as in the article
 			<td><audio src="audio-listening_test/DPAI_with_context/context_example1mask6.wav" controls preload style="width: 200px;"></audio></td>
 		</tr>
 		<tr>
-			<td>DPAI averaged (4 outputs)</td>
+			<td>DPAI averaged* (4 outputs)</td>
 			<td><audio src="audio-listening_test/DPAI_averaged/averaged_example1mask2.wav" controls preload style="width: 200px;"></audio></td>
 			<td><audio src="audio-listening_test/DPAI_averaged/averaged_example1mask4.wav" controls preload style="width: 200px;"></audio></td>
 			<td><audio src="audio-listening_test/DPAI_averaged/averaged_example1mask6.wav" controls preload style="width: 200px;"></audio></td>
@@ -155,7 +157,7 @@ The denotation of the five examples is the same as in the article
 			<td><audio src="audio-listening_test/DPAI_with_context/context_example3mask6.wav" controls preload style="width: 200px;"></audio></td>
 		</tr>
 		<tr>
-			<td>DPAI averaged (4 outputs)</td>
+			<td>DPAI averaged* (4 outputs)</td>
 			<td><audio src="audio-listening_test/DPAI_averaged/averaged_example3mask2.wav" controls preload style="width: 200px;"></audio></td>
 			<td><audio src="audio-listening_test/DPAI_averaged/averaged_example3mask4.wav" controls preload style="width: 200px;"></audio></td>
 			<td><audio src="audio-listening_test/DPAI_averaged/averaged_example3mask6.wav" controls preload style="width: 200px;"></audio></td>
@@ -211,7 +213,7 @@ The denotation of the five examples is the same as in the article
 			<td><audio src="audio-listening_test/DPAI_with_context/context_example4mask6.wav" controls preload style="width: 200px;"></audio></td>
 		</tr>
 		<tr>
-			<td>DPAI averaged (4 outputs)</td>
+			<td>DPAI averaged* (4 outputs)</td>
 			<td><audio src="audio-listening_test/DPAI_averaged/averaged_example4mask2.wav" controls preload style="width: 200px;"></audio></td>
 			<td><audio src="audio-listening_test/DPAI_averaged/averaged_example4mask4.wav" controls preload style="width: 200px;"></audio></td>
 			<td><audio src="audio-listening_test/DPAI_averaged/averaged_example4mask6.wav" controls preload style="width: 200px;"></audio></td>
@@ -267,7 +269,7 @@ The denotation of the five examples is the same as in the article
 			<td><audio src="audio-listening_test/DPAI_with_context/context_example5mask6.wav" controls preload style="width: 200px;"></audio></td>
 		</tr>
 		<tr>
-			<td>DPAI averaged (4 outputs)</td>
+			<td>DPAI averaged* (4 outputs)</td>
 			<td><audio src="audio-listening_test/DPAI_averaged/averaged_example5mask2.wav" controls preload style="width: 200px;"></audio></td>
 			<td><audio src="audio-listening_test/DPAI_averaged/averaged_example5mask4.wav" controls preload style="width: 200px;"></audio></td>
 			<td><audio src="audio-listening_test/DPAI_averaged/averaged_example5mask6.wav" controls preload style="width: 200px;"></audio></td>
@@ -323,7 +325,7 @@ The denotation of the five examples is the same as in the article
 			<td><audio src="audio-listening_test/DPAI_with_context/context_example7mask6.wav" controls preload style="width: 200px;"></audio></td>
 		</tr>
 		<tr>
-			<td>DPAI averaged (4 outputs)</td>
+			<td>DPAI averaged* (4 outputs)</td>
 			<td><audio src="audio-listening_test/DPAI_averaged/averaged_example7mask2.wav" controls preload style="width: 200px;"></audio></td>
 			<td><audio src="audio-listening_test/DPAI_averaged/averaged_example7mask4.wav" controls preload style="width: 200px;"></audio></td>
 			<td><audio src="audio-listening_test/DPAI_averaged/averaged_example7mask6.wav" controls preload style="width: 200px;"></audio></td>
