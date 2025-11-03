@@ -1,5 +1,5 @@
 # spectrogram-inpainting
-A repository and [webpage](https://rajmic.github.io/spectrogram-inpainting/) accompanying the 2025 paper *Janssen 2.0: Audio Inpainting in the Time-frequency Domain*.
+A repository and [webpage](https://rajmic.github.io/spectrogram-inpainting/) accompanying the EUSIPCO 2025 paper *Janssen 2.0: Audio Inpainting in the Time-frequency Domain*.
 
 > The paper focuses on inpainting missing parts of an audio signal spectrogram, i.e., estimating the lacking time-frequency coefficients. The autoregression-based Janssen algorithm, a state-of-the-art for the time-domain audio inpainting, is adapted for the time-frequency setting. This novel method, termed Janssen-TF, is compared with the deep-prior neural network approach using both objective metrics and a subjective listening test, proving Janssen-TF to be superior in all the considered measures.
 
